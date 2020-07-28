@@ -284,8 +284,9 @@ footer .footer2 h4 {
   color: #ff8013;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  text-align: right;
-  margin: 30px auto;
+  text-align: center;
+  margin: 20px auto;
+ 
 }
 footer .footer2 .form-box {
   background: #101011;
