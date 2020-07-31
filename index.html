@@ -130,24 +130,25 @@ Having people in the know can help you on the journey. This is why riders from o
       <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
        
           
-          <div class="form-box">
+          <form class="form-box" action="PHP/Contact.php">
           <h4>CONTACT US</h4>
           <table class="table table-responsive d-table">
             <tr>
-              <td><input type="text" class="form-control pl-0" placeholder="NAME" /></td>
-              <td><input type="email" class="form-control pl-0" placeholder="EMAIL" /></td>
+            
+              <td><input type="text" name="name" class="form-control pl-0" placeholder="NAME" /></td>
+              <td><input type="email" name="Email" class="form-control pl-0" placeholder="EMAIL" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="ADDRESS" /></td>
+              <td colspan="2"><input type="text" name="Address" class="form-control pl-0" placeholder="ADDRESS" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="MESSAGES" /></td>
+              <td colspan="2"><input type="text" name="Message" class="form-control pl-0" placeholder="MESSAGES" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
@@ -156,7 +157,7 @@ Having people in the know can help you on the journey. This is why riders from o
               <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">SEND</button></td>
             </tr>
           </table>
-        </div>
+        </form>
       </div>
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
 
